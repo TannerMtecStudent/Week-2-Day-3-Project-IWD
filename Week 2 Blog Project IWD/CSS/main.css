@@ -1,0 +1,82 @@
+/* background color
+background image (just find a free image from the internet)
+color
+margin
+padding
+text-align
+font-family
+height
+Proper use of container elements(divs)
+classes */
+html {
+    height: 100%;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(228, 227, 227);
+    margin: 0;
+    height: 100%;
+}
+div {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+ul{
+    text-align: center;
+}
+h1{
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+h2{
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    font-size: large;
+    position:relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+a{
+    text-decoration: none;
+    color: rgb(228, 227, 227);
+}
+a:hover{
+    color: orangered;
+}
+.content {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* The image used */
+    background-image: url(../Images/WoKwallpaper.webp);
+    /*Image height*/
+    height: 100%;
+    /*Center image and other*/
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: rgb(0, 0, 114);
+    margin: 0;
+}
+
+.nav{    
+    background-color: rgb(37, 35, 33);
+    padding: 5px;
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+    text-align: center;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
